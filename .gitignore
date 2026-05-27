@@ -1,0 +1,6 @@
+session.lock
+**/DistantHorizons.sqlite
+**/DistantHorizons.sqlite-wal
+**/DistantHorizons.sqlite-shm
+**/*.dat_old
+level.dat_old
