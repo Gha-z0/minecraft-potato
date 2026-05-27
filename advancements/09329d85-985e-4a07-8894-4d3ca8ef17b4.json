@@ -3530,12 +3530,6 @@
     },
     "done": true
   },
-  "mca:baby": {
-    "criteria": {
-      "baby": "2026-05-27 01:09:22 +0300"
-    },
-    "done": true
-  },
   "mca:recipes/misc/family_tree": {
     "criteria": {
       "has_item": "2026-05-27 00:31:02 +0300"
@@ -3578,27 +3572,9 @@
     },
     "done": true
   },
-  "mca:recipes/misc/books": {
-    "criteria": {
-      "has_item": "2026-05-27 01:28:37 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2026-05-27 00:37:50 +0300"
-    },
-    "done": true
-  },
-  "mca:marriage": {
-    "criteria": {
-      "iron": "2026-05-27 01:08:40 +0300"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/blueprint": {
-    "criteria": {
-      "has_item": "2026-05-27 01:28:37 +0300"
     },
     "done": true
   },
@@ -3611,12 +3587,6 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2026-05-27 00:37:50 +0300"
-    },
-    "done": true
-  },
-  "mca:monster": {
-    "criteria": {
-      "baby_drop_attempts": "2026-05-27 01:12:58 +0300"
     },
     "done": true
   },
@@ -3641,6 +3611,36 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2026-05-27 00:37:50 +0300"
+    },
+    "done": true
+  },
+  "mca:marriage": {
+    "criteria": {
+      "iron": "2026-05-27 01:08:40 +0300"
+    },
+    "done": true
+  },
+  "mca:baby": {
+    "criteria": {
+      "baby": "2026-05-27 01:09:22 +0300"
+    },
+    "done": true
+  },
+  "mca:monster": {
+    "criteria": {
+      "baby_drop_attempts": "2026-05-27 01:12:58 +0300"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2026-05-27 01:28:37 +0300"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2026-05-27 01:28:37 +0300"
     },
     "done": true
   },

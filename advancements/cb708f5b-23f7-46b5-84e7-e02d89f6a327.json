@@ -3902,15 +3902,15 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/food_press": {
-    "criteria": {
-      "has_hopper": "2026-05-27 01:25:13 +0300"
-    },
-    "done": true
-  },
   "betternether:recipes/misc/bn_glowstone_dust": {
     "criteria": {
       "has_glowstone_pile": "2026-05-27 01:00:48 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/food_press": {
+    "criteria": {
+      "has_hopper": "2026-05-27 01:25:13 +0300"
     },
     "done": true
   },
