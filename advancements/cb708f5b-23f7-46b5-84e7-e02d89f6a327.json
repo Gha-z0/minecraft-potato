@@ -3760,7 +3760,8 @@
   },
   "croptopia:gather_food": {
     "criteria": {
-      "glowing_calamari": "2026-05-25 00:13:36 +0300"
+      "glowing_calamari": "2026-05-25 00:13:36 +0300",
+      "calamari": "2026-05-28 01:27:16 +0300"
     },
     "done": false
   },
@@ -3911,6 +3912,66 @@
   "croptopia:recipes/misc/food_press": {
     "criteria": {
       "has_hopper": "2026-05-27 01:25:13 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/fried_calamari": {
+    "criteria": {
+      "has_calamari": "2026-05-28 01:27:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-05-28 01:47:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-05-28 00:42:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2026-05-28 01:47:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-05-28 00:56:23 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
+    "criteria": {
+      "has_calamari": "2026-05-28 01:27:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-05-28 01:05:25 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2026-05-28 01:41:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-05-28 01:27:16 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
+    "criteria": {
+      "has_calamari": "2026-05-28 01:27:16 +0300"
     },
     "done": true
   },
