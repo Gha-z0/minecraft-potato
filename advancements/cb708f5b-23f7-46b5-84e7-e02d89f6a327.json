@@ -24,6 +24,8 @@
       "minecraft:snowy_taiga": "2026-05-16 23:33:08 +0300",
       "minecraft:frozen_peaks": "2026-05-16 23:00:50 +0300",
       "minecraft:deep_cold_ocean": "2026-05-16 23:21:58 +0300",
+      "minecraft:ice_spikes": "2026-05-29 01:46:59 +0300",
+      "minecraft:frozen_ocean": "2026-05-28 21:41:11 +0300",
       "minecraft:frozen_river": "2026-05-16 23:32:59 +0300",
       "minecraft:ocean": "2026-05-16 23:17:43 +0300",
       "minecraft:grove": "2026-05-22 23:11:18 +0300",
@@ -1860,7 +1862,8 @@
       "minecraft:enderman": "2026-05-16 23:49:18 +0300",
       "minecraft:silverfish": "2026-05-26 18:55:06 +0300",
       "minecraft:spider": "2026-05-17 00:36:32 +0300",
-      "minecraft:zombie": "2026-05-16 23:50:06 +0300"
+      "minecraft:zombie": "2026-05-16 23:50:06 +0300",
+      "minecraft:ghast": "2026-05-28 21:54:32 +0300"
     },
     "done": false
   },
@@ -3622,7 +3625,11 @@
   "betternether:all_the_biomes": {
     "criteria": {
       "betternether:upside_down_forest_cleared": "2026-05-24 23:52:41 +0300",
-      "betternether:upside_down_forest": "2026-05-24 23:53:39 +0300"
+      "betternether:upside_down_forest": "2026-05-24 23:53:39 +0300",
+      "betternether:nether_mushroom_forest_edge": "2026-05-28 22:02:54 +0300",
+      "betternether:old_fungiwoods": "2026-05-28 22:05:00 +0300",
+      "betternether:nether_mushroom_forest": "2026-05-28 22:02:56 +0300",
+      "betternether:nether_swampland": "2026-05-28 22:06:21 +0300"
     },
     "done": false
   },
@@ -3718,7 +3725,8 @@
   },
   "betternether:nether_wood": {
     "criteria": {
-      "got_anchor_tree": "2026-05-24 23:54:54 +0300"
+      "got_anchor_tree": "2026-05-24 23:54:54 +0300",
+      "got_nether_mushroom": "2026-05-28 22:03:05 +0300"
     },
     "done": false
   },
@@ -3915,27 +3923,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/fried_calamari": {
-    "criteria": {
-      "has_calamari": "2026-05-28 01:27:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2026-05-28 01:47:27 +0300"
-    },
-    "done": true
-  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2026-05-28 00:42:18 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_sandstone": {
-    "criteria": {
-      "has_sand": "2026-05-28 01:47:27 +0300"
     },
     "done": true
   },
@@ -3945,21 +3935,21 @@
     },
     "done": true
   },
-  "croptopia:recipes/food/cooked_calamari_from_calamari": {
-    "criteria": {
-      "has_calamari": "2026-05-28 01:27:16 +0300"
-    },
-    "done": true
-  },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2026-05-28 01:05:25 +0300"
     },
     "done": true
   },
-  "croptopia:recipes/misc/mashed_potatoes": {
+  "croptopia:recipes/misc/fried_calamari": {
     "criteria": {
-      "has_milk": "2026-05-28 01:41:34 +0300"
+      "has_calamari": "2026-05-28 01:27:16 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
+    "criteria": {
+      "has_calamari": "2026-05-28 01:27:16 +0300"
     },
     "done": true
   },
@@ -3972,6 +3962,396 @@
   "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
     "criteria": {
       "has_calamari": "2026-05-28 01:27:16 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2026-05-28 01:41:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-05-28 01:47:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2026-05-28 01:47:27 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_framed_pane_black": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_black": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_framed_black": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_pane_black": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-05-28 20:00:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2026-05-28 21:41:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2026-05-28 21:41:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2026-05-28 21:41:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-05-28 21:54:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-05-28 21:54:32 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_mushroom_planks": {
+    "criteria": {
+      "has_nether_mushroom_stem": "2026-05-28 22:03:05 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/nether_mushroom_hanging_sign": {
+    "criteria": {
+      "has_nether_mushroom_stem": "2026-05-28 22:03:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_smelting": {
+    "criteria": {
+      "has_quartz": "2026-05-28 22:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:06:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:06:17 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/brick_pot": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:07:28 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/bricks_fire_bowl_soul": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:07:28 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_fire_bowl_soul": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:07:28 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/soul_sand_soul_sandstone": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:07:28 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pot": {
+    "criteria": {
+      "has_soul_sand": "2026-05-28 22:07:28 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2026-05-29 01:13:48 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_light_blue_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_light_blue_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_framed_light_blue": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_pane_light_blue": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_soup": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_light_blue_pane2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_bars": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_framed_pane_light_blue": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2026-05-29 01:44:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/rutabaga_seed": {
+    "criteria": {
+      "has_rutabaga": "2026-05-29 01:40:14 +0300"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_light_blue": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_light_blue2": {
+    "criteria": {
+      "recipe_condition2": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
     },
     "done": true
   },
