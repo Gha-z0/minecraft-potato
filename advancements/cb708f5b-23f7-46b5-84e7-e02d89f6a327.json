@@ -15,22 +15,29 @@
     "criteria": {
       "minecraft:cold_ocean": "2026-05-16 23:24:42 +0300",
       "minecraft:snowy_slopes": "2026-05-22 23:13:30 +0300",
-      "minecraft:dark_forest": "2026-05-16 22:56:36 +0300",
+      "minecraft:old_growth_pine_taiga": "2026-05-29 20:22:36 +0300",
+      "minecraft:forest": "2026-05-29 20:26:37 +0300",
       "minecraft:taiga": "2026-05-16 23:24:52 +0300",
       "minecraft:deep_ocean": "2026-05-16 23:21:45 +0300",
-      "minecraft:river": "2026-05-16 23:03:43 +0300",
-      "minecraft:snowy_plains": "2026-05-22 23:11:08 +0300",
       "minecraft:lush_caves": "2026-05-16 23:33:32 +0300",
-      "minecraft:snowy_taiga": "2026-05-16 23:33:08 +0300",
-      "minecraft:frozen_peaks": "2026-05-16 23:00:50 +0300",
       "minecraft:deep_cold_ocean": "2026-05-16 23:21:58 +0300",
       "minecraft:ice_spikes": "2026-05-29 01:46:59 +0300",
       "minecraft:frozen_ocean": "2026-05-28 21:41:11 +0300",
       "minecraft:frozen_river": "2026-05-16 23:32:59 +0300",
       "minecraft:ocean": "2026-05-16 23:17:43 +0300",
-      "minecraft:grove": "2026-05-22 23:11:18 +0300",
+      "minecraft:cherry_grove": "2026-05-29 20:40:26 +0300",
+      "minecraft:birch_forest": "2026-05-29 20:44:29 +0300",
       "minecraft:old_growth_spruce_taiga": "2026-05-21 22:37:05 +0300",
-      "minecraft:snowy_beach": "2026-05-22 23:10:24 +0300"
+      "minecraft:snowy_beach": "2026-05-22 23:10:24 +0300",
+      "minecraft:beach": "2026-05-29 20:45:51 +0300",
+      "minecraft:dark_forest": "2026-05-16 22:56:36 +0300",
+      "minecraft:river": "2026-05-16 23:03:43 +0300",
+      "minecraft:snowy_plains": "2026-05-22 23:11:08 +0300",
+      "minecraft:snowy_taiga": "2026-05-16 23:33:08 +0300",
+      "minecraft:frozen_peaks": "2026-05-16 23:00:50 +0300",
+      "minecraft:grove": "2026-05-22 23:11:18 +0300",
+      "minecraft:swamp": "2026-05-29 20:23:43 +0300",
+      "minecraft:plains": "2026-05-29 20:32:54 +0300"
     },
     "done": false
   },
@@ -1208,7 +1215,8 @@
       "cooked_cod": "2026-05-16 23:21:24 +0300",
       "sweet_berries": "2026-05-16 23:28:28 +0300",
       "cooked_beef": "2026-05-16 23:55:34 +0300",
-      "baked_potato": "2026-05-18 03:51:33 +0300"
+      "baked_potato": "2026-05-18 03:51:33 +0300",
+      "pumpkin_pie": "2026-05-29 20:25:39 +0300"
     },
     "done": false
   },
@@ -2793,7 +2801,9 @@
   },
   "croptopia:gather_all": {
     "criteria": {
+      "squash_seed": "2026-05-29 20:51:41 +0300",
       "barley_seed": "2026-05-23 17:48:07 +0300",
+      "rutabaga_seed": "2026-05-29 20:51:53 +0300",
       "raspberry_seed": "2026-05-21 22:51:10 +0300"
     },
     "done": false
@@ -4223,6 +4233,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_soup": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_bars": {
+    "criteria": {
+      "has_pumpkin": "2026-05-29 01:13:49 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/rutabaga_seed": {
+    "criteria": {
+      "has_rutabaga": "2026-05-29 01:40:14 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2026-05-29 01:44:31 +0300"
+    },
+    "done": true
+  },
   "connectedglass:recipes/misc/borderless_glass_light_blue_pane2": {
     "criteria": {
       "recipe_condition2": "2026-05-29 01:44:33 +0300"
@@ -4238,12 +4284,6 @@
   "betternether:recipes/building_blocks/quartz_glass_framed_light_blue": {
     "criteria": {
       "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2026-05-29 01:13:49 +0300"
     },
     "done": true
   },
@@ -4271,39 +4311,15 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/pumpkin_soup": {
-    "criteria": {
-      "has_pumpkin": "2026-05-29 01:13:49 +0300"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/clear_glass_light_blue_pane2": {
     "criteria": {
       "recipe_condition2": "2026-05-29 01:44:33 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2026-05-29 01:13:49 +0300"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/pumpkin_bars": {
-    "criteria": {
-      "has_pumpkin": "2026-05-29 01:13:49 +0300"
-    },
-    "done": true
-  },
   "betternether:recipes/decorations/quartz_glass_framed_pane_light_blue": {
     "criteria": {
       "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2026-05-29 01:44:31 +0300"
     },
     "done": true
   },
@@ -4331,12 +4347,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/rutabaga_seed": {
-    "criteria": {
-      "has_rutabaga": "2026-05-29 01:40:14 +0300"
-    },
-    "done": true
-  },
   "betternether:recipes/building_blocks/quartz_glass_light_blue": {
     "criteria": {
       "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
@@ -4352,6 +4362,261 @@
   "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
       "has_light_blue_dye": "2026-05-29 01:44:33 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/popcorn_from_corn": {
+    "criteria": {
+      "has_corn": "2026-05-29 20:33:45 +0300"
+    },
+    "done": true
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2026-05-29 20:30:26 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/blackbean_seed": {
+    "criteria": {
+      "has_blackbean": "2026-05-29 20:36:28 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/broccoli_seed": {
+    "criteria": {
+      "has_broccoli": "2026-05-29 20:39:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/corn_seed": {
+    "criteria": {
+      "has_corn": "2026-05-29 20:33:45 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/corn_bread": {
+    "criteria": {
+      "has_corn": "2026-05-29 20:33:45 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/popcorn_from_smoking_corn": {
+    "criteria": {
+      "has_corn": "2026-05-29 20:33:45 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_seed": {
+    "criteria": {
+      "has_cabbage": "2026-05-29 20:41:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2026-05-29 20:32:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-05-29 19:53:07 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cucumber_seed": {
+    "criteria": {
+      "has_cucumber": "2026-05-29 20:42:03 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/borscht": {
+    "criteria": {
+      "has_cabbage": "2026-05-29 20:41:42 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/spinach_seed": {
+    "criteria": {
+      "has_spinach": "2026-05-29 20:36:11 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_beans_from_blackbean": {
+    "criteria": {
+      "has_blackbean": "2026-05-29 20:36:28 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/chile_pepper_seed": {
+    "criteria": {
+      "has_chile_pepper": "2026-05-29 20:42:33 +0300"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "orange_sapling": "2026-05-29 20:37:42 +0300"
+    },
+    "done": false
+  },
+  "croptopia:recipes/food/baked_sweet_potato_from_smoking_sweetpotato": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-29 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_roll": {
+    "criteria": {
+      "has_cabbage": "2026-05-29 20:41:42 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lemon_sapling": {
+    "criteria": {
+      "has_lemon": "2026-05-29 20:38:16 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/celery_seed": {
+    "criteria": {
+      "has_celery": "2026-05-29 20:43:33 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/persimmon_sapling": {
+    "criteria": {
+      "has_persimmon": "2026-05-29 20:29:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/goulash": {
+    "criteria": {
+      "has_cabbage": "2026-05-29 20:41:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-05-29 20:32:25 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tomato_seed": {
+    "criteria": {
+      "has_tomato": "2026-05-29 20:43:23 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_sweet_potato_from_sweetpotato": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-29 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lettuce_seed": {
+    "criteria": {
+      "has_lettuce": "2026-05-29 20:41:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-05-29 20:32:10 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sweetpotato_seed": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-29 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_beans_from_smoking_blackbean": {
+    "criteria": {
+      "has_blackbean": "2026-05-29 20:36:28 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/oat_seed": {
+    "criteria": {
+      "has_oat": "2026-05-29 20:35:59 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/kale_seed": {
+    "criteria": {
+      "has_kale": "2026-05-29 20:39:15 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cantaloupe_seed": {
+    "criteria": {
+      "has_cantaloupe": "2026-05-29 20:36:48 +0300"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "orange_sapling": "2026-05-29 20:37:42 +0300",
+      "persimmon_sapling": "2026-05-29 20:30:26 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-05-29 19:52:14 +0300"
+    },
+    "done": true
+  },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "squash_seed": "2026-05-29 20:51:41 +0300",
+      "rutabaga_seed": "2026-05-29 20:51:53 +0300"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_forest": {
+    "criteria": {
+      "orange_sapling": "2026-05-29 20:37:42 +0300",
+      "persimmon_sapling": "2026-05-29 20:30:26 +0300"
+    },
+    "done": false
+  },
+  "croptopia:recipes/misc/tomato_juice": {
+    "criteria": {
+      "has_tomato": "2026-05-29 20:43:23 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_sapling": {
+    "criteria": {
+      "has_orange": "2026-05-29 20:37:37 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pear_sapling": {
+    "criteria": {
+      "has_pear": "2026-05-29 20:35:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-05-29 19:52:14 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_juice": {
+    "criteria": {
+      "has_orange": "2026-05-29 20:37:37 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/melon_juice": {
+    "criteria": {
+      "has_melon": "2026-05-29 20:36:48 +0300"
     },
     "done": true
   },
