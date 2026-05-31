@@ -1633,11 +1633,22 @@
   },
   "croptopia:gather_all": {
     "criteria": {
+      "sweetpotato_seed": "2026-05-31 01:38:04 +0300",
       "squash_seed": "2026-05-16 23:27:50 +0300",
+      "chile_pepper_seed": "2026-05-31 01:38:58 +0300",
+      "cabbage_seed": "2026-05-31 01:40:27 +0300",
+      "cucumber_seed": "2026-05-31 01:36:44 +0300",
+      "cantaloupe_seed": "2026-05-31 01:37:54 +0300",
       "blackberry_seed": "2026-05-22 21:28:57 +0300",
+      "spinach_seed": "2026-05-31 01:38:36 +0300",
+      "corn_seed": "2026-05-31 01:38:51 +0300",
+      "broccoli_seed": "2026-05-31 01:36:31 +0300",
+      "kale_seed": "2026-05-31 01:36:37 +0300",
       "barley_seed": "2026-05-16 23:27:27 +0300",
       "rutabaga_seed": "2026-05-21 22:43:25 +0300",
+      "tomato_seed": "2026-05-31 01:35:57 +0300",
       "strawberry_seed": "2026-05-28 20:13:48 +0300",
+      "celery_seed": "2026-05-31 01:40:32 +0300",
       "raspberry_seed": "2026-05-21 02:24:26 +0300"
     },
     "done": false
@@ -1650,7 +1661,14 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
-      "barley_seed": "2026-05-16 23:27:27 +0300"
+      "sweetpotato_seed": "2026-05-31 01:38:04 +0300",
+      "chile_pepper_seed": "2026-05-31 01:38:58 +0300",
+      "kale_seed": "2026-05-31 01:36:37 +0300",
+      "cabbage_seed": "2026-05-31 01:40:27 +0300",
+      "cucumber_seed": "2026-05-31 01:36:44 +0300",
+      "barley_seed": "2026-05-16 23:27:27 +0300",
+      "corn_seed": "2026-05-31 01:38:51 +0300",
+      "broccoli_seed": "2026-05-31 01:36:31 +0300"
     },
     "done": false
   },
@@ -2410,8 +2428,12 @@
   "croptopia:gather_forest": {
     "criteria": {
       "blackberry_seed": "2026-05-22 21:28:57 +0300",
+      "cantaloupe_seed": "2026-05-31 01:37:54 +0300",
+      "spinach_seed": "2026-05-31 01:38:36 +0300",
       "strawberry_seed": "2026-05-28 20:13:48 +0300",
-      "raspberry_seed": "2026-05-21 02:24:26 +0300"
+      "tomato_seed": "2026-05-31 01:35:57 +0300",
+      "raspberry_seed": "2026-05-21 02:24:26 +0300",
+      "celery_seed": "2026-05-31 01:40:32 +0300"
     },
     "done": false
   },
@@ -3958,12 +3980,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2026-05-29 01:24:23 +0300"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/black_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-05-29 01:04:33 +0300"
@@ -4009,6 +4025,190 @@
   "mca:recipes/decorations/gray_oak_crib": {
     "criteria": {
       "has_oak_planks": "2026-05-29 01:04:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-05-29 01:24:23 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/popcorn_from_corn": {
+    "criteria": {
+      "has_corn": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2026-05-31 01:34:59 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/blackbean_seed": {
+    "criteria": {
+      "has_blackbean": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/broccoli_seed": {
+    "criteria": {
+      "has_broccoli": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/corn_seed": {
+    "criteria": {
+      "has_corn": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/corn_bread": {
+    "criteria": {
+      "has_corn": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/popcorn_from_smoking_corn": {
+    "criteria": {
+      "has_corn": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_seed": {
+    "criteria": {
+      "has_cabbage": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cucumber_seed": {
+    "criteria": {
+      "has_cucumber": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/borscht": {
+    "criteria": {
+      "has_cabbage": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/spinach_seed": {
+    "criteria": {
+      "has_spinach": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_beans_from_blackbean": {
+    "criteria": {
+      "has_blackbean": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/chile_pepper_seed": {
+    "criteria": {
+      "has_chile_pepper": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "orange_sapling": "2026-05-31 01:34:59 +0300",
+      "apple_sapling": "2026-05-31 01:36:17 +0300"
+    },
+    "done": false
+  },
+  "croptopia:recipes/food/baked_sweet_potato_from_smoking_sweetpotato": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_roll": {
+    "criteria": {
+      "has_cabbage": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/celery_seed": {
+    "criteria": {
+      "has_celery": "2026-05-31 01:34:57 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/goulash": {
+    "criteria": {
+      "has_cabbage": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tomato_seed": {
+    "criteria": {
+      "has_tomato": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_sweet_potato_from_sweetpotato": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sweetpotato_seed": {
+    "criteria": {
+      "has_sweetpotato": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/baked_beans_from_smoking_blackbean": {
+    "criteria": {
+      "has_blackbean": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/kale_seed": {
+    "criteria": {
+      "has_kale": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cantaloupe_seed": {
+    "criteria": {
+      "has_cantaloupe": "2026-05-31 01:34:56 +0300"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "orange_sapling": "2026-05-31 01:34:59 +0300",
+      "apple_sapling": "2026-05-31 01:36:17 +0300",
+      "persimmon_sapling": "2026-05-31 01:34:59 +0300"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_forest": {
+    "criteria": {
+      "orange_sapling": "2026-05-31 01:34:59 +0300",
+      "persimmon_sapling": "2026-05-31 01:34:59 +0300"
+    },
+    "done": false
+  },
+  "croptopia:recipes/misc/tomato_juice": {
+    "criteria": {
+      "has_tomato": "2026-05-31 01:34:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2026-05-31 02:28:35 +0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/melon_juice": {
+    "criteria": {
+      "has_melon": "2026-05-31 01:34:56 +0300"
     },
     "done": true
   },
